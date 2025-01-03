@@ -159,7 +159,7 @@ class LibreTranslate < NuixTranslator
   # @param item [Item] a Nuix item
   def translate(item)
     @progress.setMainStatusAndLogIt('Translating')
-## Timeout für Text abholen mit entsprechender Nachricht und Tagging  
+## Timeout for retrieval of text with message and tagging  
   begin
 		text = Timeout::timeout(@settings['http_timeout'].to_i) do
 			get_original_text(item)
