@@ -29,7 +29,7 @@ class LibreTranslate < NuixTranslator
     'et' => 'Estonian',
     'fi' => 'Finnish',
     'fr' => 'French',
-    'gl' => 'Gallician',
+    'gl' => 'Galician',
     'de' => 'German',
     'el' => 'Greek',
     'he' => 'Hebrew',
